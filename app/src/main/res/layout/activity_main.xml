@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2F4F"
+    tools:context="com.example.andriod.registrationformsqlite.MainActivity">
+
+    <!--<EditText-->
+        <!--android:id="@+id/et_ID"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="32dp"-->
+        <!--android:ems="10"-->
+        <!--android:inputType="textPersonName"-->
+        <!--android:hint="ID" />-->
+
+
+    <EditText
+        android:id="@+id/et_Fname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="First Name" />
+
+    <EditText
+        android:id="@+id/et_Lname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_Fname"
+        android:layout_alignStart="@+id/et_Fname"
+        android:layout_below="@+id/et_Fname"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Last Name"/>
+
+    <EditText
+        android:id="@+id/et_Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/et_Lname"
+        android:layout_alignRight="@+id/et_Lname"
+        android:layout_below="@+id/et_Lname"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:hint="Password" />
+
+    <EditText
+        android:id="@+id/et_Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_Password"
+        android:layout_alignStart="@+id/et_Password"
+        android:layout_below="@+id/et_Password"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Email_ID" />
+
+    <EditText
+        android:id="@+id/et_Phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_Email"
+        android:layout_alignStart="@+id/et_Email"
+        android:layout_below="@+id/et_Email"
+        android:layout_marginTop="21dp"
+        android:ems="10"
+        android:hint="Phone No" />
+
+    <Button
+        android:id="@+id/btn_Register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:text="Register"
+        android:background="#2F4F4F"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_Register"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="47dp"
+        android:text="You did it." />
+</RelativeLayout>
+    <!--android:layout_alignEnd="@+id/et_ID"-->
+    <!--android:layout_alignRight="@+id/et_ID"-->
+    <!--android:layout_below="@+id/et_ID"-->
